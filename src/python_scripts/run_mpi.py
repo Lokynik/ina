@@ -153,7 +153,7 @@ for generation in range(50):
 
 #res = calculate_full_trace(scale(C.value.values[:-2],*bounds.T), kwargs)
 #print(res)
-print("TIMEEEEE",time.process_time () - start_time, "seconds")
+#print("TIMEEEEE",time.process_time () - start_time, "seconds")
 result = pd.DataFrame(solutions, columns=['x', 'loss'])
 name = 'result_1.csv'
 result.to_csv(f"../../data/results/{name}")
